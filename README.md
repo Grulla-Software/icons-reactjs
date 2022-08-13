@@ -21,7 +21,6 @@ You must open the command console at the root of your project and execute the co
 
 [Click me to go to the demo on codeSandbox!](https://codesandbox.io/embed/tooltips-reactjs-j3ymmk?fontsize=14&hidenavigation=1&theme=dark)
 
-
 ## Usage 🛠️
 
 Here is an example of how to implement the component:
