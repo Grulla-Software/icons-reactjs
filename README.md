@@ -3,7 +3,7 @@
 [![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/icons-reactjs/blob/main/LICENSE.md) 
 [![GitHub package version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://github.com/Grulla-Software/icons-reactjs)
 
-![Image](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/imgHeading.png)
+![Image](https://github.com/Grulla-Software/icons-reactjs/blob/main/img/imgHeading.png)
 
 # tooltips-reactjs 🚀
 Icons-reactjs is a component that allows you to display a large number and variety of built-in icons.
