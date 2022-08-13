@@ -66,10 +66,10 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 
 **Required props are marked with `*`.**
 
-| Name      | Type   | Default         | Description                                 |
-| --------- | ------ | --------------- | ------------------------------------------- |
-| `fontSize`|`string`| `2rem`          | Indicates the size of icon component.       |
-| `color`   |`string`| `cornflowerblue`| Indicates the text color of icon component. |
+| Name      | Type   | Default         | Description                   |
+| --------- | ------ | --------------- | ----------------------------- |
+| `fontSize`|`string`| `2rem`          | Indicates the size of icon .  |
+| `color`   |`string`| `cornflowerblue`| Indicates the  color of icon. |
 
 
 ### Additional usage information 📋
@@ -94,7 +94,7 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 
 Additional information about using the component pros.
 
-- **icon**: Use this prop to indicates the name of the icon that the component will display. This must be indicated as a `string`.For more information about icon names you can visit the following website: Go to view icons and icon names.[Click me to see icons and icon names!](https://codesandbox.io/embed/tooltips-reactjs-j3ymmk?fontsize=14&hidenavigation=1&theme=dark)
+- **icon**: Use this prop to indicates the name of the icon that the component will display. This must be indicated as a `string`.For more information about icon names you can visit the following website: Go to view icons and icon names. [Click me to see icons and icon names!](https://codesandbox.io/embed/tooltips-reactjs-j3ymmk?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Authors ✒️
 
