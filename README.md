@@ -93,7 +93,7 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 
 Additional information about using the component pros.
 
-- **icon**: Use this prop to indicates the name of the icon that the component will display. This must be indicated as a `string`.For more information about icon names you can visit the following website: Go to view icons and icon names. [Click me to see icons and icon names!](https://codesandbox.io/embed/tooltips-reactjs-j3ymmk?fontsize=14&hidenavigation=1&theme=dark)
+- **icon**: Use this prop to indicates the name of the icon that the component will display. This must be indicated as a `string`.For more information about icon names you can visit the following website: Go to view icons and icon names. [Click me to see icons and icon names!](https://grulla-software.github.io/page-icons/)
 
 ## Authors ✒️
 
