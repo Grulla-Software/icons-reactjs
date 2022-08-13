@@ -1,21 +1,20 @@
 [![npm](https://badgen.net/npm/v/tooltips-reactjs)](https://www.npmjs.com/package/tooltips-reactjs) 
-[![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/LICENSE.md) 
-[![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/LICENSE.md) 
-[![GitHub package version](https://img.shields.io/badge/version-1.0.5-green.svg)](https://github.com/Grulla-Software/tooltips-reactjs)
+[![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/icons-reactjs/blob/main/LICENSE.md) 
+[![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/icons-reactjs/blob/main/LICENSE.md) 
+[![GitHub package version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://github.com/Grulla-Software/icons-reactjs)
 
-[![Video text](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/imgHeading.png)](https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/view?usp=sharing)
+![Image](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/imgHeading.png)
 
 # tooltips-reactjs 🚀
-Tooltips-reactjs is an ideal component to display additional information when the user hovers over another element or component.
-This component has been developed so that it is totally modifiable and can be adapted to the needs of the developer, allowing it to meet the requested requirements.
-It is a lightweight component and very easy to use.
-> This displays additional information to users.
+Icons-reactjs is a component that allows you to display a large number and variety of built-in icons.
+It is a lightweight and very easy to use component that helps the developer to meet the requested requirements.
+> This shows icons in font format.
 
 ## Installing 🔧
 To install the component use the Node Package Manager (npm).
 You must open the command console at the root of your project and execute the command:
 ```
- npm install tooltips-reactjs --save 
+ npm install icons-reactjs --save 
 ```
 
 ## Demo 💻
@@ -30,69 +29,36 @@ Here is an example of how to implement the component:
 ```jsx
 import logo from './logo.svg';
 import './App.css';
-import TooltipsReactjs  from 'tooltips-reactjs';
+import IconsReactjs  from 'icons-reactjs';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Tooltips Component</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>tooltips-reactjs</h2>
-         <div className='container'>
-
-          {/* Tooltip Top */}
-          <TooltipsReactjs 
-            text={<div>Tooltip Top</div>}
-            type={'top'}
-            background={'#61DAFB'}
-            borderRadius={'2%'}
-            color={'#000000'}
-          >
-            <p>Tooltip Top </p>
-          </TooltipsReactjs>
-
-          {/* Tooltip Bottom */}
-          <TooltipsReactjs 
-            text={'Tooltip Bottom'}
-            type={'bottom'}
-            background={'blue'}
-          >
-            <p>Tooltip Bottom</p>
-          </TooltipsReactjs>
-
+    <div className="App App-header">
+      <div className=' container'>
+        <div className=' row'>
+          <div className='col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center'>
+            <h1>Icons Component</h1>
+            <img src={logo} className="App-logo" alt="logo" />
+            <h2>icons-reactjs</h2>
+            <br/>
+            <IconsReactjs 
+              icon={'check'} 
+              fontSize={'2rem'} 
+              color={'#0f5132'}
+            />
+            <br/>
+            <IconsReactjs 
+              icon={'github'} 
+              fontSize={'2rem'} 
+              color={'#0f5132'}
+            />
+          </div>
         </div>
-        <div className='container'>
-
-          {/* Tooltip Left */}
-          <TooltipsReactjs 
-            text={'Tooltip Left'}
-            type={'left'}
-            background={'red'}
-          >
-            <p>Tooltip Left</p>
-          </TooltipsReactjs>
-
-          {/* Tooltip Right */}
-          <TooltipsReactjs 
-            text={<p>Tooltip Right</p>}
-            type={'right'}
-            background={'green'}
-          >
-            <p>Tooltip Right</p>
-          </TooltipsReactjs>
-
-        </div>
-      </header>
+      </div>
     </div>
   );
 }
-
 export default App;
-
 ```
-<p align="center">
-  <img src="https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif" width ='100%'>
-</p>
 
 ### Props of styles 📦
 
@@ -100,25 +66,18 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 
 **Required props are marked with `*`.**
 
-| Name          | Type   | Default    | Description                                        |
-| ------------- | ------ | ---------- | -------------------------------------------------- |
-| `width`       |`string`| `150px`    | Indicates the width of tooltip component.          |
-| `height`      |`string`| `30px`     | Indicates the height of tooltip component.         |
-| `background`  |`string`| `#0000005b`| Indicates the background of tooltip component.     |
-| `fontSize`    |`string`| `1rem`     | Indicates the text size of tooltip component.      |
-| `color`       |`string`| `#fff`     | Indicates the text color of tooltip component.     |
-| `borderRadius`|`string`| `3px`      | Indicates the border radius of tooltip component.   |
+| Name      | Type   | Default         | Description                                 |
+| --------- | ------ | --------------- | ------------------------------------------- |
+| `fontSize`|`string`| `2rem`          | Indicates the size of icon component.       |
+| `color`   |`string`| `cornflowerblue`| Indicates the text color of icon component. |
+
 
 ### Additional usage information 📋
 
 Additional information about using the component pros.
 
-- **width**: Use this prop to indicate the width of tooltip component. Specify this as a `string` and in pixel format ("30px") or percentage format ("10%").
-- **height**: Use this prop to indicate the heightof tooltip component. Specify this as a `string` and in pixel format ("30px") or percentage format ("10%").
-- **background**: Use this prop for indicate the background color of tooltip component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("red").
-- **fontSize**: Use this prop to indicate the size of text for tooltip component. Specify this as a `string` and in pixel format ("20px") or REM format ("1rem") or EM format ("1em") or the name of size("smaller", "medium", "large", " larger", "x-large", "xx-large").
-- **color**: Use this prop for indicate the text color of tooltip component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("white").
-- **borderRadius**: Use this prop for indicate the border radius of tooltip component. This value is indicated as a `string` and percentage format for example: "10%" or "50%".
+- **fontSize**: Use this prop to indicate the size for icon component. Specify this as a `string` and in pixel format ("20px") or REM format ("1rem") or EM format ("1em") or the name of size("smaller", "medium", "large", " larger", "x-large", "xx-large").
+- **color**: Use this prop for indicate the color of icon component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("white").
 
 ### Props for functionality 📦
 
@@ -126,22 +85,16 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 
 **Required props are marked with `*`.**
 
-| Name      | Type         | Default | Description                                                   |
-| --------- | -------      | ------- | ------------------------------------------------------------- |
-| `text`\*  | `JSX.Element`| ` `     | Indicates the content that the tooltip component will display.|
-| `type`    | `string`     | `top`   | Indicates the type of tooltip component.                      |
-| `offsetY` | `number`     | `80`    | Indicates the Y-axis offset for tooltip component.        |
-| `offsetX` | `number`     | `110`   | Indicates the X-axis offset for tooltip component.        |
+| Name      | Type     | Default | Description                                                    |
+| --------- | -------- | ------- | -------------------------------------------------------------- |
+| `icon`\*  | `string` | ` `     | Indicates the name of the icon that the component will display |
 
 
 ### Additional usage information 📋
 
 Additional information about using the component pros.
 
-- **text**: Use this prop to indicate the content that the tooltip component will display. This must be indicated as a `string` or as an `html element`.
-- **type**: Use this prop to indicate the type of the tooltip component. This must be given as a `string` and the supported values are `top` or `bottom` or `left` or `right`.
-- **offsetY**: Use this prop indicates the Y-axis offset for tooltip component. This must be indicated as a `number` for example: 10 or 20 or 30.
-- **offsetX**: Use this prop indicates the X-axis offset for tooltip component. This must be indicated as a `number` for example: 10 or 20 or 30.
+- **icon**: Use this prop to indicates the name of the icon that the component will display. This must be indicated as a `string`.For more information about icon names you can visit the following website: Go to view icons and icon names.[Click me to see icons and icon names!](https://codesandbox.io/embed/tooltips-reactjs-j3ymmk?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Authors ✒️
 
