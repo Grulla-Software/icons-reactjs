@@ -1,7 +1,7 @@
 [![npm](https://badgen.net/npm/v/icons-reactjs)](https://www.npmjs.com/package/icons-reactjs) 
 [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/icons-reactjs/blob/main/LICENSE.md) 
 [![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/icons-reactjs/blob/main/LICENSE.md) 
-[![GitHub package version](https://img.shields.io/badge/version-1.0.2-green.svg)](https://github.com/Grulla-Software/icons-reactjs)
+[![GitHub package version](https://img.shields.io/badge/version-1.0.3-green.svg)](https://github.com/Grulla-Software/icons-reactjs)
 
 ![Image](https://github.com/Grulla-Software/icons-reactjs/blob/main/img/imgHeading.png)
 
