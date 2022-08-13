@@ -1,6 +1,6 @@
 {
   "name": "icons-reactjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Icons Component",
   "main": "build/index.js",
   "scripts": {
