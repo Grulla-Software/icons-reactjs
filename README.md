@@ -1,11 +1,11 @@
 [![npm](https://badgen.net/npm/v/icons-reactjs)](https://www.npmjs.com/package/icons-reactjs) 
 [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/icons-reactjs/blob/main/LICENSE.md) 
 [![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/icons-reactjs/blob/main/LICENSE.md) 
-[![GitHub package version](https://img.shields.io/badge/version-1.0.4-green.svg)](https://github.com/Grulla-Software/icons-reactjs)
+[![GitHub package version](https://img.shields.io/badge/version-1.0.5-green.svg)](https://github.com/Grulla-Software/icons-reactjs)
 
 ![Image](https://github.com/Grulla-Software/icons-reactjs/blob/main/img/imgHeading.png)
 
-# tooltips-reactjs 🚀
+# icons-reactjs 🚀
 Icons-reactjs is a component that allows you to display a large number and variety of built-in icons.
 It is a lightweight and very easy to use component that helps the developer to meet the requested requirements.
 > This shows icons in font format.
